@@ -1,0 +1,27 @@
+pip install scikit-learn==0.22.2.post1 matplotlib==3.1.1 tensorflow==1.14.0 keras==2.3.1 pandas==0.25.3 h5py==2.10.0 protobuf==3.20 numpy==1.19.5 django==2.1.7 pymysql==0.9.3 pycryptodome==3.9.4 cryptography==2.9.2 --user
+
+
+python -m pip install --upgrade pip
+
+
+pip install eciespy --user
+
+pip install Django==2.1.7 --user
+
+
+pip install cryptosteganography==0.8.3
+pip install eciespy==0.3.10
+pip install PyMySQL==0.9.3
+pip install Django==2.1.7
+
+pip install scikit-learn
+
+
+
+python manage.py makemigrations
+python manage.py migrate
+
+python train_anomaly_model.py
+
+
+python manage.py runserver

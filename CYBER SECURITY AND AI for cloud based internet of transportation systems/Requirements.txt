@@ -1,0 +1,4 @@
+pip install cryptosteganography==0.8.3
+pip install eciespy==0.3.10
+pip install PyMySQL==0.9.3
+pip install Django==2.1.7

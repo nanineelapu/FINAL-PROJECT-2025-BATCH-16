@@ -1,0 +1,21 @@
+create database cybersecurity;
+use cybersecurity;
+
+create table register(username varchar(50) primary key,
+password varchar(50),
+contact varchar(12),
+email varchar(50),
+address varchar(80));
+
+create table upload(file_id int,
+sender varchar(50),
+filename varchar(50),
+file_desc varchar(200),
+encrypt_key varchar(500),
+msg_date varchar(50));
+
+
+
+
+
+
